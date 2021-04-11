@@ -15,6 +15,11 @@ div.nav-bar {
     background: #304353;
 }
 
+#icon {
+    color: white;
+    font-size: 30px;
+}
+
 div.logo {
     font-size: 1.5rem;
     color: #bcc3c7;
@@ -344,4 +349,11 @@ div.footer h6 {
     color: #88949B;
     font-size: 1rem;
     padding-top: 6rem;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    ul.nav-links li {
+        display: none;
+    }
 }
