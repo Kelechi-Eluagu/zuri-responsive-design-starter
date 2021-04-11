@@ -353,6 +353,10 @@ div.footer h6 {
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 248px) and (max-width: 767.98px) { 
+    body {
+        width: 100%;
+        max-width: 100%;;
+    }
     ul.nav-links {
         display: none !important;
     }
@@ -364,6 +368,10 @@ div.footer h6 {
     div.logo {
         font-size: 1.2rem;
         color: #bcc3c7;
+    }
+
+    div.hero-section {
+        padding: 10rem;
     }
 }
 
