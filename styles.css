@@ -17,7 +17,7 @@ div.nav-bar {
 
 #icon {
     color: white;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 div.logo {
@@ -352,8 +352,23 @@ div.footer h6 {
 }
 
 /* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) and (max-width: 767.98px) { 
-    ul.nav-links li {
+@media (min-width: 248px) and (max-width: 767.98px) { 
+    ul.nav-links {
+        display: none !important;
+    }
+
+    div.nav-bar {
+        padding: 1rem 3rem;
+    }
+
+    div.logo {
+        font-size: 1.2rem;
+        color: #bcc3c7;
+    }
+}
+
+@media (min-width: 768px) {
+    #icon {
         display: none;
     }
 }
